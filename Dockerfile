@@ -5,7 +5,7 @@ ARG BUILD_DATE
 
 # Metadata
 LABEL org.label-schema.name="docker-helm-kubectl" \
-      org.label-schema.url="https://hub.docker.com/r/themasterr/docker-helm-kubectl/" \
+      org.label-schema.url="https://cloud.docker.com/r/themasterr/docker-helm-kubectl/" \
       org.label-schema.vcs-url="https://github.com/themasterr/docker-helm-kubectl"
 
 # Note: Latest version of kubectl may be found at:
