@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:18.09.9-dind
 
 # Metadata
 LABEL org.label-schema.name="docker-helm-kubectl" \
