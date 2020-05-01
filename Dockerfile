@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:18.09.9-dind
 
 # Metadata
 LABEL org.label-schema.name="docker-helm-kubectl" \
@@ -7,7 +7,7 @@ LABEL org.label-schema.name="docker-helm-kubectl" \
 
 # Note: Latest version of kubectl may be found at:
 # https://github.com/kubernetes/kubernetes/releases
-ENV KUBE_LATEST_VERSION="v1.18.2"
+ENV KUBE_LATEST_VERSION="v1.15.11"
 
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
